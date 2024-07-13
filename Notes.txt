@@ -1,0 +1,44 @@
+for nest documentation, we will be using:
+  https://docs.nestjs.com/
+
+need to learn what ORM is?
+  https://www.prisma.io/orm
+
+we will be installing prisma orm here:
+  npm i prisma -D
+
+now we initialize it:
+  npx prisma init
+
+to create a module next:
+  nest g module database
+
+need a service file too:
+  nest g service database
+
+next:
+  npx prisma migrate dev --name init
+
+next:
+  npm run start
+
+next wew add resource:
+  nest g resource todo
+
+install thunder client extension
+
+and an npm package:
+  npm install class-validator class-transformer
+
+running it again:
+  npm run start:dev
+
+need new packages:
+  npm i @nestjs/jwt @nestjs/passport passport-jwt bcrypt @types/bcrypt
+
+now we create an auth folder:
+  nest g resource auth
+
+another model named User created then running again the migration script.
+  npx prisma migrate dev --name adding-user-model
+
