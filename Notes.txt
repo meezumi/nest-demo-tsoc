@@ -42,3 +42,5 @@ now we create an auth folder:
 another model named User created then running again the migration script.
   npx prisma migrate dev --name adding-user-model
 
+where the project is deployed (connected to online database postgres)
+https://console.neon.tech/app/projects/gentle-firefly-23714924
